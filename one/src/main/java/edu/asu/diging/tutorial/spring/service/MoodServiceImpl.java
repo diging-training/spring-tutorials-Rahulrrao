@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import edu.asu.diging.tutorial.spring.domain.Mood;
 
 @Service
-public class MoodServiceImpl {
+public class MoodServiceImpl implements MoodService{
 	
 	List<String> moods;
 	Map<String, String> reason;

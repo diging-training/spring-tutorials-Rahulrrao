@@ -3,6 +3,6 @@ package edu.asu.diging.tutorial.spring.service;
 import edu.asu.diging.tutorial.spring.domain.Mood;
 
 public interface MoodService {
-	Mood getCurrentMood();
-	Mood getReason(String mood);
+	public Mood getCurrentMood();
+	public Mood getReason(String mood);
 }
